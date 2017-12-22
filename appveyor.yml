@@ -1,4 +1,6 @@
 version: 1.0.{build}
+pull_requests:
+  do_not_increment_build_number: true
 image: Visual Studio 2017
 configuration: Release
 platform: Any CPU
@@ -10,3 +12,8 @@ build:
 artifacts:
 - path: ConfuserEx Dynamic Unpacker\bin
   name: ConfuserEx-Unpacker v%APPVEYOR_BUILD_VERSION%
+deploy:
+- provider: GitHub
+  release: ConfuserEx-Unpacker v%APPVEYOR_BUILD_VERSION%
+  auth_token:
+    secure: g88NZbv7nrdwgz8rMFTjcMSiDUlEWxVRgdHJjPm0Y40DMCcywChZXQXuTiao+I6B
