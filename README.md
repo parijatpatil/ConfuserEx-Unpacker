@@ -1,6 +1,7 @@
 # ConfuserEx-Dynamic-Unpacker
 A dynamic confuserex unpacker that relies on invoke for most things
 
+Latest build: [![Build status](https://ci.appveyor.com/api/projects/status/3qd5cu5kkub3ac0e?svg=true)](https://ci.appveyor.com/project/ShMask/confuserex-unpacker/build/artifacts)
 
 #Usage
 when using this you there are 2 compulsary commands
