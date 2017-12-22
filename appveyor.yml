@@ -12,8 +12,3 @@ build:
 artifacts:
 - path: ConfuserEx Dynamic Unpacker\bin
   name: ConfuserEx-Unpacker v%APPVEYOR_BUILD_VERSION%
-deploy:
-- provider: GitHub
-  release: ConfuserEx-Unpacker v%APPVEYOR_BUILD_VERSION%
-  auth_token:
-    secure: g88NZbv7nrdwgz8rMFTjcMSiDUlEWxVRgdHJjPm0Y40DMCcywChZXQXuTiao+I6B
