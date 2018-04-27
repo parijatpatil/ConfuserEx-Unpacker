@@ -30,7 +30,7 @@ namespace ConfuserEx_Dynamic_Unpacker.Protections
             cctor = module.GlobalType.FindStaticConstructor();
             antitamp = cctor.Body.Instructions[0].Operand as MethodDef;
             if (antitamp == null) return null;
-            IList<ImageSectionHeader> imageSectionHeaders = module.MetaData.PEImage.ImageSectionHeaders;
+            IList<ImageSectionHeader> imageSectionHeaders = module.Metadata.PEImage.ImageSectionHeaders;
             ImageSectionHeader confSec = imageSectionHeaders[0];
             FindInitialKeys(antitamp);
             if (initialKeys == null) return null;
