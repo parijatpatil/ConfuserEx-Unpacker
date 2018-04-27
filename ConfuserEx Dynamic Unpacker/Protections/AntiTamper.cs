@@ -63,7 +63,7 @@ namespace ConfuserEx_Dynamic_Unpacker.Protections
         }
         public static bool? IsTampered(ModuleDefMD module)
         {
-            var sections = module.MetaData.PEImage.ImageSectionHeaders;
+            var sections = module.Metadata.PEImage.ImageSectionHeaders;
 
             
 
