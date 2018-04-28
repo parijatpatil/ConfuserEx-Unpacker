@@ -54,7 +54,7 @@ namespace ConfuserEx_Dynamic_Unpacker
            
            
             ModuleWriterOptions writerOptions = new ModuleWriterOptions(module);
-            writerOptions.MetaDataOptions.Flags |= MetaDataFlags.PreserveAll;
+            writerOptions.MetadataOptions.Flags |= MetadataFlags.PreserveAll;
             writerOptions.Logger = DummyLogger.NoThrowInstance;
             
             module.Write(path + "Cleaned.exe",writerOptions);
@@ -195,7 +195,7 @@ namespace ConfuserEx_Dynamic_Unpacker
 
                     byte[] rawbytes = null;
 
-                    var htdgfd = (module).MetaData.PEImage.CreateFullStream();
+                    var htdgfd = (module).Metadata.PEImage.CreateReader();
 
                     rawbytes = htdgfd.ReadBytes((int)htdgfd.Length);
                     try
