@@ -1,34 +1,135 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfuserEx Dynamic Unpacker", "ConfuserEx Dynamic Unpacker\ConfuserEx Dynamic Unpacker.csproj", "{21E98071-183F-4FD1-AE99-734404274BA6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "de4dot.blocks", "de4dot\de4dot.blocks\de4dot.blocks.csproj", "{045B96F2-AF80-4C4C-8D27-E38635AC705E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dnlib", "dnlib\src\dnlib.csproj", "{FDFC1237-143F-4919-8318-4926901F4639}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{21E98071-183F-4FD1-AE99-734404274BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21E98071-183F-4FD1-AE99-734404274BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21E98071-183F-4FD1-AE99-734404274BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21E98071-183F-4FD1-AE99-734404274BA6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{045B96F2-AF80-4C4C-8D27-E38635AC705E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{045B96F2-AF80-4C4C-8D27-E38635AC705E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{045B96F2-AF80-4C4C-8D27-E38635AC705E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{045B96F2-AF80-4C4C-8D27-E38635AC705E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FDFC1237-143F-4919-8318-4926901F4639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FDFC1237-143F-4919-8318-4926901F4639}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FDFC1237-143F-4919-8318-4926901F4639}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FDFC1237-143F-4919-8318-4926901F4639}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-EndGlobal
+<DebuggerHidden()>
+<STAThread()>
+<EditorBrowsable(EditorBrowsableState.Advanced)>
+<MethodImpl(MethodImplOptions.NoInlining Or MethodImplOptions.NoOptimization)>
+Public Shared Sub bde79cc5f0054348bb84bdff8323433b(A_0 As String())
+	While True
+		IL_00:
+		e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea = New Byte(67) {}
+		Dim num As Integer
+		num += 352
+		e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(0) = 155
+		e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(1) = 201
+		e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(2) = 89
+		e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(3) = 53
+		While True
+			IL_3E:
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(4) = 254
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(5) = 247
+			Dim a13d857ad6ce4413a74af3f4c8b1dcea As Object = e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea
+			num -= 35
+			a13d857ad6ce4413a74af3f4c8b1dcea(6) = 250
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(7) = 146
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(8) = 134
+			num -= 152
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(9) = 108
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(10) = 190
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(11) = 110
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(12) = 7
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(13) = 195
+			num -= 163
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(14) = 165
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(15) = 222
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(16) = 25
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(17) = 58
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(18) = 233
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(19) = 228
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(20) = 158
+			Dim a13d857ad6ce4413a74af3f4c8b1dcea2 As Object = e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea
+			Dim num2 As Integer = 21
+			num += 414
+			a13d857ad6ce4413a74af3f4c8b1dcea2(num2) = 95
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(22) = 17
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(23) = 207
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(24) = 149
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(25) = 84
+			Dim a13d857ad6ce4413a74af3f4c8b1dcea3 As Object = e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea
+			Dim num3 As Integer = 26
+			num -= 359
+			a13d857ad6ce4413a74af3f4c8b1dcea3(num3) = 94
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(27) = 25
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(28) = 79
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(29) = 49
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(30) = 209
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(31) = 239
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(32) = 32
+			Dim a13d857ad6ce4413a74af3f4c8b1dcea4 As Object = e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea
+			num -= 20
+			a13d857ad6ce4413a74af3f4c8b1dcea4(33) = 0
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(34) = 0
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(35) = 0
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(36) = 196
+			num += 223
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(37) = 94
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(38) = 99
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(39) = 20
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(40) = 183
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(41) = 160
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(42) = 241
+			e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(43) = 112
+			While True
+				IL_233:
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(44) = 124
+				Dim a13d857ad6ce4413a74af3f4c8b1dcea5 As Object = e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea
+				num -= 122
+				a13d857ad6ce4413a74af3f4c8b1dcea5(45) = 98
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(46) = 197
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(47) = 243
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(48) = 203
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(49) = 82
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(50) = 31
+				Dim a13d857ad6ce4413a74af3f4c8b1dcea6 As Object = e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea
+				num -= 14
+				a13d857ad6ce4413a74af3f4c8b1dcea6(51) = 174
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(52) = 162
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(53) = 208
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(54) = 156
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(55) = 62
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(56) = 207
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(57) = 91
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(58) = 196
+				Dim a13d857ad6ce4413a74af3f4c8b1dcea7 As Object = e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea
+				Dim num4 As Integer = 59
+				num += 184
+				a13d857ad6ce4413a74af3f4c8b1dcea7(num4) = 182
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(60) = 192
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(61) = 83
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(62) = 239
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(63) = 180
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(64) = 108
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(65) = 241
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(66) = 0
+				e31daf00ba0243c383deb0de2dfa4b11.a13d857ad6ce4413a74af3f4c8b1dcea(67) = 252
+				calli(System.Void(System.Boolean), calli(System.Boolean(), ab8adb28ebb940d681ef767a0103b93e.a0fe17a742ba4267b777b35ea85fea8a(num - 306)), ab8adb28ebb940d681ef767a0103b93e.a0fe17a742ba4267b777b35ea85fea8a(num - 305))
+				While True
+					IL_385:
+					num = ((num And -53) Or 201)
+					Dim num5 As Integer = -651216848
+					While True
+						Dim num6 As Integer = num5 Xor -1629724051
+						Dim num7 As UInteger = CUInt(num6)
+						Select Case num6 Mod 3
+							Case 0
+								GoTo IL_385
+							Case 2
+								calli(System.Void(System.String[]), ae53acc162c04928b2211ef73282e964.e2822300717f411c81aa8edd8a2e7812(), A_0, ab8adb28ebb940d681ef767a0103b93e.a0fe17a742ba4267b777b35ea85fea8a(num - 453))
+								If(5363 Xor 32768 * num7) = 0 Then
+									GoTo IL_3E
+								End If
+								Dim b42c767f56f0432ea76ab52ad231a As Integer = <Module>.b42c767f56f0432ea76ab52ad231a472
+								If Not b42c767f56f0432ea76ab52ad231a - 159328 = (2144 Xor b42c767f56f0432ea76ab52ad231a) Then
+									GoTo IL_00
+								End If
+								If b42c767f56f0432ea76ab52ad231a / 78987 * 83 + 429 * (b42c767f56f0432ea76ab52ad231a / 78987) <> -7931 Then
+									num5 = CInt((num7 * -1791805875 Xor -1118696057))
+									Continue For
+								End If
+								GoTo IL_233
+						End Select
+						Return
+					End While
+				End While
+			End While
+		End While
+	End While
+End Sub
